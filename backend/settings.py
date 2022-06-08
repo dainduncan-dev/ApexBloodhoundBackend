@@ -17,7 +17,8 @@ SECRET_KEY = 'doesntmatter'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".herokuapp.com", "*", "0.0.0.0:8000"]
+ALLOWED_HOSTS = [
+    "https://apex-bloodhound-backend.herokuapp.com/", "*", "0.0.0.0:8000"]
 
 
 # Application definition
